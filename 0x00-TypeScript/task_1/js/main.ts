@@ -20,8 +20,6 @@ interface printTeacherFunction {
     (firstName: string, lastName: string): string;
 }
 
-let printTeacher: printTeacherFunction;
-
-printTeacher = function(firstName: string, lastName: string): string {
-    return `${firstName.charAt(0)} ${lastName}`
+export const printTeacher: printTeacherFunction = function(firstName: string, lastName: string): string {
+    return `${firstName.charAt(0)}. ${lastName}`
 }
