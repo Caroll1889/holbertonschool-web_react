@@ -34,7 +34,7 @@ interface StudentClassInterface {
     displayName(): string;
 }
 
-export class StudentClass implements StudentClassInterface {
+export const StudentClass: StudentClassConstructor = class StudentClass implements StudentClassInterface {
   firstName: string
   lastName: string;
 
