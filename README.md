@@ -10,6 +10,8 @@
 |---|
 | [0x00-TypeScript](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x00-TypeScript) | |
 | [0x01-Webpack](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x01-Webpack) | |
+| [0x02. React intro](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x02-react_intro) | |
+
 
 ***
 
