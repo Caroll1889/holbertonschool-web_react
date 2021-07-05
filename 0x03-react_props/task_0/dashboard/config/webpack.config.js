@@ -1,12 +1,12 @@
-const { CleanWebpackPlugin } = require("clean-webpack-plugin")
-const HtmlWebpackPlugin = require("html-webpack-plugin")
+// const { CleanWebpackPlugin } = require("clean-webpack-plugin")
+// const HtmlWebpackPlugin = require("html-webpack-plugin")
 const path = require("path")
 
 /** @type {import('webpack').Configuration} */
 module.exports = {
     entry: "./src/index.js",
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "./dist"),
         filename: "bundle.js",
     },
     devServer: {
@@ -42,8 +42,8 @@ module.exports = {
             }
         ]
     },
-    resolve: {
-        extensions: [".js", ".jsx", ".json"]
-    },
+    // resolve: {
+    //     extensions: [".js", ".jsx", ".json"]
+    // },
     devtool: "inline-source-map",
 }
