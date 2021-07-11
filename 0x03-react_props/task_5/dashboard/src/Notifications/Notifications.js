@@ -28,7 +28,7 @@ export default function Notifications({ displayDrawer, listNotifications }) {
           <p>Here is the list of notifications</p>
           <ul>
 
-            {listNotifications.length === 0 ? (<NotificationItem value='No new notification for now' />) : <></>}
+            {listNotifications.length === 0 ? (<NotificationItem value='No new notification for now' type='no-new' />) : <></>}
             {listNotifications.map((not) => (<NotificationItem key={not.id} type={not.type} value={not.value} html={not.html} />))}
           </ul>
         </div>) 
