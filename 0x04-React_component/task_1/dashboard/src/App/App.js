@@ -29,11 +29,11 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener('keydown', this.handlePress)
+    document.addEventListener('keydown', this.handlePress)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('keydown', this.handlePress)
+    document.removeEventListener('keydown', this.handlePress)
   }
 
   handlePress(event) {
