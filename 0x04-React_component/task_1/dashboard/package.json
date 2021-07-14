@@ -16,6 +16,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.1.9",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.2",
     "chai": "^4.3.4",
     "css-loader": "^5.2.6",
     "file-loader": "^6.2.0",
@@ -40,6 +41,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "jest": {
+    "verbose": true,
+    "clearMocks": true,
     "setupFiles": [
       "<rootDir>/config/setupTests.js"
     ],
