@@ -1,5 +1,4 @@
 ## 0x03. React props
-
 ### :open_file_folder: Specializations - Web Stack programming ― Back-end
 
 
