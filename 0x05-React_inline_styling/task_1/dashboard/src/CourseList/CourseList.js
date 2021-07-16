@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { css, StyleSheet } from 'aphrodite';
 import CourseListRow from './CourseListRow';
 import CourseShape from "./CourseShape";
-import './CourseList.css';
 
 const styles = StyleSheet.create({
     CourselistContainer: {

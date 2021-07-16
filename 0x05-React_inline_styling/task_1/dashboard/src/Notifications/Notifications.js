@@ -4,7 +4,6 @@ import { css, StyleSheet } from 'aphrodite';
 import NotificationItem from "./NotificationItem";
 import closeButton from "../assets/close-icon.png";
 import NotificationItemShape from "./NotificationItemShape";
-import "./Notifications.css";
 
 const styles = StyleSheet.create({
   notifications: {

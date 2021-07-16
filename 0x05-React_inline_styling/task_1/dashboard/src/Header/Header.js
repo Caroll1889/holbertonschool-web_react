@@ -1,7 +1,6 @@
 import React, { cloneElement } from "react";
 import { css, StyleSheet } from 'aphrodite';
 import holberton_logo from "../assets/holberton_logo.jpg";
-// import "./Header.css";
 
 
 const styles = StyleSheet.create({

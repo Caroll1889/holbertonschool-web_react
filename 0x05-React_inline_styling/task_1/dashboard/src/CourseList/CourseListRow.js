@@ -9,13 +9,13 @@ export default function CourseListRow({
 
   const rowStyle = { backgroundColor: '#f5f5f5ab'}
   const headerStyle = { backgroundColor: '#deb5b545'}
-  const text = {textAlign: 'center'}
+  const text = {textAlign: 'center', border:'1px solid lightgray'}
 
   if (isHeader) {
     if (textSecondCell === null) {
       return (
         <tr style={headerStyle}>
-          <th colSpan="2">{textFirstCell}</th>
+          <th colSpan="2" style={text}>{textFirstCell}</th>
         </tr>
       );
     } else {
@@ -29,8 +29,8 @@ export default function CourseListRow({
   } else {
     return (
       <tr style={rowStyle}>
-        <td>{textFirstCell}</td>
-        <td>{textSecondCell}</td>
+        <td style={text}>{textFirstCell}</td>
+        <td style={text}>{textSecondCell}</td>
       </tr>
     );
   }
