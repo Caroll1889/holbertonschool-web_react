@@ -5,6 +5,10 @@
 import { shallow } from "enzyme";
 import React from "react";
 import CourseListRow from "./CourseListRow";
+import { StyleSheetTestUtils } from 'aphrodite';
+
+StyleSheetTestUtils.suppressStyleInjection();
+
 
 describe('Test CourseListRow.js', () => {
   it('CourseListRow  render without crashing', () => {
