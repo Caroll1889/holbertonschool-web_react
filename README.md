@@ -8,9 +8,15 @@
 
 | <p align="center">PROYECTS</p>  |
 |---|
-| [0x00-TypeScript](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x00-TypeScript) | |
-| [0x01-Webpack](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x01-Webpack) | |
-| [0x02. React intro](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x02-react_intro) | |
+| [0x00. TypeScript](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x00-TypeScript) | |
+| [0x01. Webpack](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x01-Webpack) | |
+| [0x02. React Intro](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x02-react_intro) | |
+| [0x03. React Props](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x03-react_props) | |
+| [0x04. React Component](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x04-React_component) | |
+| [0x05. React Inline Styling](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x05-React_inline_styling) | |
+
+
+
 
 
 ***
