@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   },
   notificationsButtonImage: {
     width: '20px',
-    marginTop: '15px'
+    marginTop: '10px'
   }
 })
 
@@ -62,7 +62,7 @@ class Notifications extends React.Component {
         <div className='menuItem'><div className={css(styles.menuItem, styles.menuItemSmall)}>Your notifications</div></div>
     
         { this.props.displayDrawer ? 
-          (<div className={css(styles.Notification)}>
+          (<div className='Notifications'>
             <div className={css(styles.notifications, styles.notificationsSmall)}>
               <button
                 style={{
