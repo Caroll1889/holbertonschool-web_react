@@ -58,10 +58,11 @@ class Notifications extends React.Component {
   }
   
   render () { 
+    const { handleDisplayDrawer, handleHideDrawer } = this.props
     return (
       <>
         <div className='menuItem'>
-          <div className={css(styles.menuItem, styles.menuItemSmall)} onClick={this.props.handleDisplayDrawer}>
+          <div className={css(styles.menuItem, styles.menuItemSmall)} onClick={handleDisplayDrawer}>
             Your notifications
           </div>
         </div>
@@ -77,7 +78,7 @@ class Notifications extends React.Component {
                   background: "transparent",
                 }}
                 aria-label="close"
-                onClick={this.props.handleHideDrawer}
+                onClick={handleHideDrawer}
               >
               <img src={closeButton} className={css(styles.notificationsButtonImage)} alt="close button icon" />
               </button>
