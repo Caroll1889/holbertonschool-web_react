@@ -1,6 +1,6 @@
-import immutable from 'immutable';
+import { Map, List } from 'immutable';
 
-const { Map } = immutable;
+// const { Map, List } = require('immutable');
 
 
 const map = Map({
@@ -13,6 +13,7 @@ const map = Map({
 });
 
 
-const map2 = map.set(2, 'Benjamin').set(4, 'Oliver')
+const map2 = List(map).set(2, 'Benjamin').set(4, 'Oliver')
+
 
 export { map, map2 }
