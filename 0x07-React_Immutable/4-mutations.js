@@ -12,7 +12,7 @@ const map = Map({
 });
 
 const map2 = List(map).withMwithMutations((item) => {
-    item.set(2, 'Benjamin').set(4, 'Oliver');
+  item.set(2, 'Benjamin').set(4, 'Oliver');
 });
 
-export { map, map2 }
+export { map, map2 };
