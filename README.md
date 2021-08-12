@@ -14,9 +14,10 @@
 | [0x03. React Props](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x03-react_props) | |
 | [0x04. React Component](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x04-React_component) | |
 | [0x05. React Inline Styling](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x05-React_inline_styling) | |
-
-
-
+| [0x06. React state](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x06-react_state) | |
+| [0x07. React Immutable](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x07-React_Immutable) | |
+| [0x08. React Redux action creator+normalizr](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x08_react_redux_action_creator_normalizr) | |
+| [0x09. React Redux reducer+selector](https://github.com/Caroll1889/holbertonschool-web_react/tree/master/0x09-react_redux_reducer_selector) | |
 
 
 ***
